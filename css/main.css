@@ -17,6 +17,12 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1, h2, h3 {
     text-shadow: 3px 3px 3px #897670;
     font-family: 'Love Ya Like A Sister', cursive;
@@ -106,6 +112,16 @@ body {
 .footer-container,
 .main aside {
     background: #3B3747;
+}
+.main aside{
+    -webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-ms-transition: all 1s linear;
+-o-transition: all 1s linear;
+transition: all 1s linear;
+}
+.main aside:hover{
+   background-color: #5A5157;
 }
 
 .title {
